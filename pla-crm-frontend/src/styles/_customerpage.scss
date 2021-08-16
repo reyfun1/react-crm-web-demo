@@ -1,0 +1,53 @@
+.customer-header-section{
+    .title{
+        font-size: 25px;
+        text-align: center;
+        font-weight: 300;
+        width: 100%;
+    }
+}
+
+.customer-sub-section{
+    display: flex;
+    justify-content: space-around;
+}
+
+.customer-sub-actions{
+    margin: 10px 0 0 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+
+    :first-child{
+        border-right: none;
+        border-left: none;
+    }
+    :last-child{
+        border-left: none;
+        border-right: none;
+    }
+
+    a{  
+        cursor: pointer;
+        &:hover{
+            background-color: $section-bg-color;
+            p, i{
+                background-color: $section-bg-color; 
+            }
+        }
+        flex: 1;
+        text-align: center;
+        border: $input-border;
+        font-size: 12px;
+        padding: 5px 15px;
+        p,i{
+            pointer-events: none;
+            font-size: 1.2em;
+            white-space: nowrap;
+        }
+    } 
+}
+
+
+

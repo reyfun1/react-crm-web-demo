@@ -1,0 +1,62 @@
+@import 'variables.scss';
+
+.tabsection-btns{
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-between;
+
+    button{
+        text-transform: uppercase;
+        font-size: 13px;
+        font-weight: 500;
+        flex-grow: 5;
+        margin-left: 3px;
+        margin-right: 3px;
+        border: none;
+        outline: none;
+        transition: all 0.3s;
+        background-color: $section-bg-color;
+        border-bottom: $non-selected-tab-border;
+        &:hover{
+            cursor: pointer;
+        } 
+        &:first-of-type{
+            margin-left: 0;
+        }
+        &:last-of-type{
+            margin-right: 0;
+        }
+
+    }
+
+    
+    button.active{
+        background-color: $selected-overlay;
+        border-bottom: $selected-tab-border;
+    }
+}
+
+.tabsection-pages{
+    
+    .tabsection-page{
+       display: none; 
+       padding: 10px;
+       margin-top: 5px;
+    }
+
+    .tabsection-page.active{
+        display: block;
+    }
+
+    
+
+}
+
+.tabsection-footer-btns{
+    display: flex;
+    margin-top: 20px;
+    button{
+        width: 100%;
+        outline: none;
+    }
+}

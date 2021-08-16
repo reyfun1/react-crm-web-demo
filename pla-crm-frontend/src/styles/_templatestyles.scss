@@ -1,0 +1,170 @@
+
+.qb-template-pdf{
+    padding: 5px 35px;
+    background-color: white;
+    width: 816px;
+    height: 1045px;
+    cursor: default;
+
+    .invoice-header{
+        h2{
+            text-align: right;
+        font-weight: bold;
+        }
+    }
+
+    h1,h2,h3,h4{
+        color: black;
+    }
+    .main-header{
+        display: flex;
+        justify-content: space-between;
+    
+      }
+      
+      .main-header td, .main-header th{
+        font-size: 14px;
+        text-align: center;
+      }
+      
+      
+      
+      p, th, td{
+        font-size: 11px;
+        color: black;
+      }
+      
+      .billtoshipto{
+        display: flex;
+        justify-content: center;
+        width: 100%
+      }
+      
+      .billtoshipto div{
+        width: 95%;
+        text-align: left;
+        padding: 5px;
+        
+      }
+      
+      .billtoshipto .header, .billtoshipto .text-content{
+        border: 2px solid black;
+        p {
+            margin: 5px;
+        }
+      }
+      .billtoshipto .header{
+        border-bottom: none;
+        p{
+            font-size: 12px;
+            margin: 5px;
+        }
+      }
+      
+      table, td, th{
+        border: 1px solid black;
+      }
+      
+      table{
+        width: 100%;
+        text-align: center;
+        background-color: white;
+        color: black;
+        border-collapse: initial;
+        cursor: default;
+      }
+      
+      table th, table td{
+        padding: 10px;
+        word-wrap: wrap;
+        background-color: white;
+        color: black;
+        cursor: default;
+      }
+      
+      
+      table td, table th{
+        white-space: nowrap; 
+        overflow: hidden;
+      }
+      
+      .big-table tbody tr td:nth-of-type(2){
+        white-space: initial; 
+        overflow: initial;
+        text-align: left;
+      }
+      
+      .big-table thead tr td{
+        border-bottom: 2px solid black;
+      }
+      .big-table{
+        border-bottom: 2px solid black;
+      }
+      
+      .big-table tbody td{
+        border-left: 1px solid black;
+        border-right: 1px solid black;
+        border-top: none;
+        border-bottom: none;
+        cursor: text;
+      }
+      
+      .big-table-footer{
+        display: grid;
+        grid-template-columns: 1.25fr 1fr;
+        grid-template-rows: 1f 1fr 1fr 1fr;
+      }
+      
+      .footer-subtotal{
+        border: px solid black;
+        padding: 5px 15px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        
+        p{
+            display: block;
+            margin: auto 0;
+            font-size: 12px;
+        }
+      }
+      
+      .footer-subtotal h2, .footer-subtotal p, .footer-subtotal h1{
+        margin: 0;
+        padding: 0;
+        font-weight: bold;
+      }
+      
+      .footer-subtotal:nth-of-type(1){
+        grid-column: 1/1;
+        border-left: 2px solid black;
+        border-bottom: 2px solid black;
+      }
+      .footer-subtotal:nth-of-type(3){
+        h2{
+            font-size: 26px;
+
+        }
+      }
+      
+      .footer-subtotal:nth-of-type(2),.footer-subtotal:nth-of-type(3), .footer-subtotal:nth-of-type(4), .footer-subtotal:nth-of-type(5){
+        grid-column: 2/2;
+        border-left: 2px solid black;
+        border-bottom: 2px solid black;
+        border-right: 2px solid black;
+      }
+      
+      .main-footer{
+        width: 25%
+      }
+      
+      .page-number{
+        text-align: center;
+        color: black;
+      }
+      .big-table{
+        height: 366px;
+        border-spacing: 0;
+    }
+
+}

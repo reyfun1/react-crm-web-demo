@@ -1,0 +1,65 @@
+
+$main-bg-color: #1B1B1D;
+$section-bg-color: #28282B; // before: 28282B
+$section-bg-color2: #404040;
+$section-bg-color3: #707070;
+$standard-grey-color: #d6d6d6;
+$defaultborder :1px solid rgba(255, 255, 255, 0.2);
+$not-active: #a3a3a3;
+
+
+$highlight-color-main: #F9C784;
+$highlight-color-main2: #87F3BA;
+$delete-color: #EF2F2F;
+
+$selected-overlay: #707070;
+$input-border: 0.5px solid rgba(112,112,112,0.45);
+$input-border-radius: 4px;
+$input-fill: rgba(156, 30, 30, 0);
+$selected-tab-border: 5px solid $highlight-color-main;
+$selected-tab-border-thin: 1px solid $highlight-color-main;
+$problem-tab-border-thin: 2px solid $delete-color;
+$warning-tab-border-thin: 2px solid orange;
+$non-selected-tab-border: 5px solid rgba(0,0,0,0);
+
+$overlay-cover-color: rgba(0,0,0,0.9);
+
+$map-select : #040430;
+
+/* Animation code */
+@keyframes fade {
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
+/* The animation code */
+@keyframes slideFromTop {
+    from {margin-top: -500px;}
+    to {margin-top: 0;}
+}
+
+/* The animation code */
+@keyframes showModal {
+    from {
+        margin-top: -500px;
+        opacity: 0;
+    }
+    to {
+        margin-top: 200px;
+        opacity: 1;
+    }
+}
+
+
+/* The animation code */
+@keyframes height-animation {
+    0% {
+        max-height: 0;
+        opacity: 0;
+    }
+    100% {
+        max-height: 500px;
+        opacity: 1;
+    }
+}
+
+
