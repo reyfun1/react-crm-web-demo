@@ -9,8 +9,6 @@ const ChartItem = ({type, chartData}) => {
     // Bar.defaults.global.plugins.datalabels.anchor = 'end';
     // Bar.defaults.global.plugins.datalabels.align = 'end';
 
-    console.log(chartData)
-
     switch (type) {
         case 'customer-page-sales-list':
             const data = {

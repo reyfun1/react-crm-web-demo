@@ -52,7 +52,7 @@ const OrderViewPage = ({ match }) => {
 
     return (
         <div id='view-order-page' className="page-padding large page-animated fade">
-            <PageTitle title="Order Page" subtitle="Showing order" btns={['Delete']} btnFunc={deleteHandler}/>
+            <PageTitle title="Order Page" subtitle="Showing order"/>
             <br/><br/>
             {loading ? (<Loader/>) : Object.keys(order).length > 0 ? (
                 <>

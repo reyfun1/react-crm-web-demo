@@ -12,7 +12,6 @@ const NoteViewPage = ({ match }) => {
     const noteId = match.params.id
 
     // getting state resources 
-    const {userInfo} = useSelector( state => state.userLogin)
     const {loading,note} = useSelector(state => state.noteDetails)
 
 
@@ -22,17 +21,11 @@ const NoteViewPage = ({ match }) => {
     },[noteId])
 
 
-
-
-    const deleteHandler = () => {
-
-    }
-
     const {CustomerRef, AuthorRef,NoteClass,NoteType,Subject,Text,TimeStamp, id } = note
 
     return (
         <div id='view-note-page' className="page-padding large fade">
-            <PageTitle title="Note Page" subtitle="Showing note" btns={['Delete']} btnFunc={deleteHandler}/>
+            <PageTitle title="Note Page" subtitle="Showing note" />
             <br/><br/>
 
             {loading ? (<Loader/>) : (
@@ -43,8 +36,8 @@ const NoteViewPage = ({ match }) => {
                     <div className="info-key-value with-logo">
                             <i className="fas fa-paste"></i>
                         <div>
-                                <p>{Subject}</p>
-                                <p>{Text}</p>
+                            <p>{Subject}</p>
+                            <p>{Text}</p>
                         </div>
                     </div>
                  </div>

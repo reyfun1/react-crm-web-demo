@@ -20,7 +20,6 @@ import {
     CUSTOMER_SALES_LIST_REQUEST,
     CUSTOMER_SALES_LIST_SUCCESS,
     CUSTOMER_SALES_LIST_FAIL,
-    
 } from '../constants/customerConstants'
 
 import {db, rdb, auth} from '../firebase';

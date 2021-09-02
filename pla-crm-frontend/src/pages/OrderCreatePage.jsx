@@ -91,7 +91,7 @@ const OrderCreatePage = ({history}) => {
 
     // Order instructions / REP Code
     const [orderInstructions, setOrderInstructions] = useState('')
-    const [repCode, setRepCode] = useState('-')
+    const [repCode, setRepCode] = useState('RF')
 
     const calculateTotals = () => {
         let amount = 0, qty = 0, facings = 0

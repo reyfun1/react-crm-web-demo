@@ -27,7 +27,7 @@ const NoteFeedPage = React.memo(({ history }) => {
 
     // component level states 
     const [typeOfDate, setTypeOfDate] = useState(Object.keys(dateSelectors)[0])
-    const [datesToShow, setDatesToShow] = useState(dateSelectors['Today'])
+    const [datesToShow, setDatesToShow] = useState(dateSelectors['This Year'])
 
     // filter fields level states 
     const [author, setAuthor] = useState('Any')

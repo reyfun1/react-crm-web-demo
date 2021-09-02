@@ -2,7 +2,6 @@ import React, { useState, useEffect }from 'react'
 import PageTitle from '../components/PageTitle'
 import Button from '../components/Button'
 
-import { Link } from 'react-router-dom'
 import { useDispatch, useSelector} from 'react-redux'
 import { login, loginWithPersistance} from '../actions/userActions'
 import { auth } from '../firebase'
@@ -10,7 +9,7 @@ import { auth } from '../firebase'
 import ModalContainer  from '../components/ModalContainer'
 
 
-const LoginPage = ({ history, location}) => {
+const LoginPage = ({ history }) => {
 
     // For the local state of fields 
     const [email, setEmail] = useState('test@test.com')

@@ -23,7 +23,7 @@ const OrderFeedPage = ({ history }) => {
 
     // Component Level States
     const [typeOfDate, setTypeOfDate] = useState(Object.keys(dateSelectors)[0])
-    const [datesToShow, setDatesToShow] = useState(dateSelectors['Today'])
+    const [datesToShow, setDatesToShow] = useState(dateSelectors['This Year'])
 
 
     // checking if there are states saved from sessionstorage
