@@ -10,10 +10,10 @@ It was built with React and the Firebase Suite (Firestore, Cloud Functions & Goo
 ![Account Page](/img/accountpage-min.jpg)
 **Account Page (Desktop View)** - *Shows data for accounts such as contact info, sales, orders, notes*
 - - - 
-![Order Form](/img/phone-order-form.png) <br>
+![Order Form](/img/phone-order-form.PNG) <br>
 **Order Form (Mobile View)** - *Page to submit orders, selecting from an order form*
 - - - 
-![Notes Feed](/img/notefeed.png) <br>
+![Notes Feed](/img/notefeed.PNG) <br>
 **Note Feed (Desktop View)** - *Submitted notes will show up here, these notes can be filtered different properties*
 
 # Details
