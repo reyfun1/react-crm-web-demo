@@ -57,3 +57,4 @@ node_modules/
 
 # dotenv environment variables file
 .env
+/pla-crm-frontend/.env
